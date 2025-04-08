@@ -1,0 +1,26 @@
+/* You can add global styles to this file, and also import other style files */
+@import './styles/main.scss';
+
+* {
+  margin: 0;
+  font-family: var(--font-family-brand);
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+::-webkit-scrollbar-track {
+  background: #ececec;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c8cac8;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a4a5a4;
+}

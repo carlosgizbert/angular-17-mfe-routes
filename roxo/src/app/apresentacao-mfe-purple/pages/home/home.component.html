@@ -1,0 +1,11 @@
+<body class="purple-home">
+  <h1>módulo roxo</h1>
+  @if(sharedData$ | async) {
+    <section>
+      <h3>message: {{ (sharedData$ | async)?.customMessage }}</h3>
+      <h3>description: {{ (sharedData$ | async)?.customData?.description }}</h3>
+      <h3>year: {{ (sharedData$ | async)?.customData?.year }}</h3>
+    </section>
+  }
+  <app-breadcrumb></app-breadcrumb>
+</body>

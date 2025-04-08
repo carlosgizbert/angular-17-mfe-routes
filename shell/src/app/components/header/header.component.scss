@@ -1,0 +1,31 @@
+.header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  background: var(--color-primary-0);
+  border-bottom: 1px solid var(--color-primary-100);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__buttons {
+    display: flex;
+    gap: 1rem;
+    color: var(--color-primary-100);
+
+    &__button {
+      height: 56px;
+      background: transparent;
+      border: none;
+      font-size: 1rem;
+
+      cursor: pointer;
+
+      &:hover {
+        font-weight: 600;
+      }
+    }
+  }
+}

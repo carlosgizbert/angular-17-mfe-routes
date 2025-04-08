@@ -1,0 +1,22 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.module-fail {
+  border: 2px solid red;
+  color: red;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  font-weight: 500;
+}
