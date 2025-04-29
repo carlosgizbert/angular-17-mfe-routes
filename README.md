@@ -1,3 +1,3 @@
 # mfe-angular-17-routes
-Micro-serviço boilerplate Angular
+Micro-frontend boilerplate Angular 19
 Desenvovido pra ajudar a construir aplicações micro-frontends baseado em rotas.
